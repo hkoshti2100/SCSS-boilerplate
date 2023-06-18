@@ -91,7 +91,7 @@ Now, this is the backbone of the **SCSS Hierarchy**. This folder contains partia
 | *_index.scss* | contains only the `@forward` rules to forward all these global SCSS modules in order to be imported in other SCSS files like *main.scss* and *_header.scss*. |
 | *_media.scss* | contains media queries to achieve responsive UI Design. |
 | *_mixins.scss* | contains SCSS mixins to be included in other SCSS files. |
-| *_variables.scss* | contains both CSS and SCSS variables to be used throughout the website. The variables are configured in such a way that even after using SCSS variables, we end up with CSS Custom property values in the output CSS file. |
+| *_variables.scss* | contains some of the very useful CSS custom properties, that make it easy to use modular and reusable code. |
 
 # FINISHING THOUGHTS
 I created this repository to officially begin and document the beginning of my web development journey. I intend to get very proficient with not only code, but also design patterns and best practices.

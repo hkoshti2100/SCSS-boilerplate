@@ -11,9 +11,9 @@ The aim of this repository is to get started with a very helpful template anytim
 - [FOLDER STRUCTURE](#folder-structure)
 - [UNDERSTANDING THE FOLDER STRUCTURE](#understanding-the-folder-structure)
   - [*index.html*](#indexhtml)
+  - [assets](#assets)
   - [lib](#lib)
   - [pages](#pages)
-  - [resources](#resources)
   - [scripts](#scripts)
   - [styles](#styles)
     - [*main.scss*](#mainscss)
@@ -23,14 +23,14 @@ The aim of this repository is to get started with a very helpful template anytim
 
 # FOLDER STRUCTURE
 - *index.html*
-- lib
-- pages
-- resources
+- assets
 	- files
 	- fonts
 	- icons
 	- images
 	- videos
+- lib
+- pages
 - scripts
 - styles
 	- *main.scss*
@@ -52,14 +52,14 @@ The aim of this repository is to get started with a very helpful template anytim
 ## *index.html*
 Obviously, the HTML file containing the document of the Home Page of the website.
 
+## assets
+This folder will contain web media resources like **downloadable files**, **font files**, **SVG icons**, **images**, **videos**, etc. which will all be contained in their own folders in a grouped manner.
+
 ## lib
 This folder will contain any external package or library that will be installed to help with the development process. For example, ***normalize.css***, ***jquery.min.js***, etc.
 
 ## pages
 This folder will contain HTML files of other pages of the website like ***About Us***, ***Contact***, etc.
-
-## resources
-This folder will contain web media resources like **downloadable files**, **font files**, **SVG icons**, **images**, **videos**, etc. which will all be contained in their own folders in a grouped manner.
 
 ## scripts
 This folder will contain our own **JavaScript files** to add interactivity and functionality to the website. Different scripts can be saved as separate ***.js*** files to keep our **JavaScript code** modular.
